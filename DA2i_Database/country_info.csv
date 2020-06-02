@@ -1,0 +1,215 @@
+ISO3,Country,Income.group,Region,Flag
+AFG,Afghanistan,Low income,Southern Asia,https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Afghanistan.svg
+ALB,Albania,Upper middle income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Albania.svg
+DZA,Algeria,Upper middle income,Northern Africa,https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg
+ASM,American Samoa,Upper middle income,Oceania,https://upload.wikimedia.org/wikipedia/commons/8/87/Flag_of_American_Samoa.svg
+ADO,Andorra,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Andorra.svg
+AGO,Angola,Upper middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Angola.svg
+ATG,Antigua and Barbuda,High income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/8/89/Flag_of_Antigua_and_Barbuda.svg
+ARG,Argentina,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg
+ARM,Armenia,Lower middle income,Caucasus and Central Asia,https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_Armenia.svg
+ABW,Aruba,High income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Aruba.svg
+AUS,Australia,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg
+AUT,Austria,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg
+AZE,Azerbaijan,Upper middle income,Caucasus and Central Asia,https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg
+BHS,"Bahamas, The",High income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/9/93/Flag_of_the_Bahamas.svg
+BHR,Bahrain,High income,Western Asia,https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Bahrain.svg
+BGD,Bangladesh,Lower middle income,Southern Asia,https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg
+BRB,Barbados,High income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Barbados.svg
+BLR,Belarus,Upper middle income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/8/85/Flag_of_Belarus.svg
+BEL,Belgium,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Belgium_%28civil%29.svg
+BLZ,Belize,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/e/e7/Flag_of_Belize.svg
+BEN,Benin,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Benin.svg
+BMU,Bermuda,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bermuda.svg
+BTN,Bhutan,Lower middle income,Southern Asia,https://upload.wikimedia.org/wikipedia/commons/9/91/Flag_of_Bhutan.svg
+BOL,Bolivia,Lower middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Bolivia.svg
+BIH,Bosnia and Herzegovina,Upper middle income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bosnia_and_Herzegovina.svg
+BWA,Botswana,Upper middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_Botswana.svg
+BRA,Brazil,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg
+VGB,British Virgin Islands,High income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_the_British_Virgin_Islands.svg 
+BRN,Brunei Darussalam,High income,South-eastern Asia,https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Brunei.svg
+BGR,Bulgaria,Upper middle income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg
+BFA,Burkina Faso,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Burkina_Faso.svg
+BDI,Burundi,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/5/50/Flag_of_Burundi.svg
+CRI,Cote d'Ivoire,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg
+KHM,Cambodia,Lower middle income,South-eastern Asia,https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_Cambodia.svg
+CMR,Cameroon,Lower middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Cameroon.svg
+CAN,Canada,High income,Developed regions,https://upload.wikimedia.org/wikipedia/en/c/cf/Flag_of_Canada.svg
+CYM,Cayman Islands,High income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_the_Cayman_Islands.svg
+CAF,Central African Republic,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Central_African_Republic.svg
+TCD,Chad,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/4/4b/Flag_of_Chad.svg
+CHI,Channel Islands,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/1/1c/Flag_of_Jersey.svg 
+CHL,Chile,High income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg
+CHN,"China, People's Rep. of",Upper middle income,Eastern Asia,https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg
+COL,Colombia,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg
+COM,Comoros,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/9/94/Flag_of_the_Comoros.svg
+COD,"Congo, Dem. Rep.",Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg
+COG,"Congo, Rep.",Lower middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_the_Republic_of_the_Congo.svg
+CRC,Costa Rica,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Costa_Rica.svg
+HRV,Croatia,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg
+CUB,Cuba,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg
+CUW,Curacao,High income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_Cura%C3%A7ao.svg 
+CYP,Cyprus,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Cyprus.svg
+CZE,Czech Republic,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg
+DNK,Denmark,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg
+DJI,Djibouti,Lower middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/3/34/Flag_of_Djibouti.svg
+DMA,Dominica,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/c/c4/Flag_of_Dominica.svg
+DOM,Dominican Republic,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_the_Dominican_Republic.svg
+ECU,Ecuador,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/e/e8/Flag_of_Ecuador.svg
+EGY,"Egypt, Arab Rep.",Lower middle income,Northern Africa,https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg
+SLV,El Salvador,Lower middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/3/34/Flag_of_El_Salvador.svg
+GNQ,Equatorial Guinea,Upper middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Equatorial_Guinea.svg
+ERI,Eritrea,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/2/29/Flag_of_Eritrea.svg
+EST,Estonia,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Estonia.svg
+ETH,Ethiopia,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/7/71/Flag_of_Ethiopia.svg
+FRO,Faroe Islands,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/3/3c/Flag_of_the_Faroe_Islands.svg
+FJI,Fiji,Upper middle income,Oceania,https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Fiji.svg
+FIN,Finland,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg
+FRA,France,High income,Developed regions,https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg
+PYF,French Polynesia,High income,Oceania,https://upload.wikimedia.org/wikipedia/commons/d/db/Flag_of_French_Polynesia.svg
+GAB,Gabon,Upper middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg
+GMB,"Gambia, The",Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_The_Gambia.svg
+GEO,Georgia,Upper middle income,Caucasus and Central Asia,https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Georgia.svg
+DEU,Germany,High income,Developed regions,https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg
+GHA,Ghana,Lower middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Ghana.svg
+GRC,Greece,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg
+GRL,Greenland,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_Greenland.svg
+GRD,Grenada,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Grenada.svg
+GUM,Guam,High income,Oceania,https://upload.wikimedia.org/wikipedia/commons/0/07/Flag_of_Guam.svg 
+GTM,Guatemala,Lower middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/e/ec/Flag_of_Guatemala.svg
+GIN,Guinea,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/e/ed/Flag_of_Guinea.svg
+GNB,Guinea-Bissau,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Guinea-Bissau.svg
+GUY,Guyana,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_Guyana.svg
+HTI,Haiti,Low income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/5/56/Flag_of_Haiti.svg
+HND,Honduras,Lower middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/8/82/Flag_of_Honduras.svg
+HKG,"Hong Kong SAR, China",High income,Eastern Asia,https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Hong_Kong.svg
+HUN,Hungary,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Hungary.svg
+ISL,Iceland,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg
+IND,India,Lower middle income,Southern Asia,https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg
+IDN,Indonesia,Lower middle income,South-eastern Asia,https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg
+IRN,"Iran, Islamic Rep.",Upper middle income,Southern Asia,https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg
+IRQ,Iraq,Upper middle income,Western Asia,https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Iraq.svg
+IRL,Ireland,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Ireland.svg
+IMY,Isle of Man,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/5/5d/Flag_of_the_Isle_of_Mann.svg
+ISR,Israel,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Israel.svg
+ITA,Italy,High income,Developed regions,https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg
+JAM,Jamaica,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Jamaica.svg
+JPN,Japan,High income,Developed regions,https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg
+JOR,Jordan,Upper middle income,Western Asia,https://upload.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Jordan.svg
+KAZ,Kazakhstan,Upper middle income,Caucasus and Central Asia,https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg
+KEN,Kenya,Lower middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Kenya.svg
+KIR,Kiribati,Lower middle income,Oceania,https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kiribati.svg
+PRK,"Korea, Dem. People's Rep.",Low income,Eastern Asia,https://upload.wikimedia.org/wikipedia/commons/5/51/Flag_of_North_Korea.svg
+KOR,"Korea, Rep.",High income,Eastern Asia,https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg
+KWT,Kuwait,High income,Western Asia,https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Kuwait.svg
+KGZ,Kyrgyz Republic,Lower middle income,Caucasus and Central Asia,https://upload.wikimedia.org/wikipedia/commons/c/c7/Flag_of_Kyrgyzstan.svg
+LAO,Lao PDR,Lower middle income,South-eastern Asia,https://upload.wikimedia.org/wikipedia/commons/5/56/Flag_of_Laos.svg
+LVA,Latvia,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Latvia.svg
+LBN,Lebanon,Upper middle income,Western Asia,https://upload.wikimedia.org/wikipedia/commons/5/59/Flag_of_Lebanon.svg
+LSO,Lesotho,Lower middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/4/4a/Flag_of_Lesotho.svg
+LBR,Liberia,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/b/b8/Flag_of_Liberia.svg
+LBY,Libya,Upper middle income,Northern Africa,https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Libya.svg
+LIE,Liechtenstein,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/4/47/Flag_of_Liechtenstein.svg
+LTU,Lithuania,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Lithuania.svg
+LUX,Luxembourg,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/d/da/Flag_of_Luxembourg.svg
+MAC,"Macao SAR, China",High income,Eastern Asia,https://upload.wikimedia.org/wikipedia/commons/6/63/Flag_of_Macau.svg
+MKD,"Macedonia, FYR",Upper middle income,Developed regions,https://commons.wikimedia.org/wiki/File:Flag_of_North_Macedonia.svg
+MDG,Madagascar,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Madagascar.svg
+MWI,Malawi,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/d/d1/Flag_of_Malawi.svg
+MYS,Malaysia,Upper middle income,South-eastern Asia,https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg
+MDV,Maldives,Upper middle income,Southern Asia,https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Maldives.svg
+MLI,Mali,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Mali.svg
+MLT,Malta,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Malta.svg
+MHL,Marshall Islands,Upper middle income,Oceania,https://upload.wikimedia.org/wikipedia/commons/2/2e/Flag_of_the_Marshall_Islands.svg
+MRT,Mauritania,Lower middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/4/43/Flag_of_Mauritania.svg
+MUS,Mauritius,Upper middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Mauritius.svg
+MEX,Mexico,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg
+FSM,"Micronesia, Fed. Sts.",Lower middle income,Oceania,https://upload.wikimedia.org/wikipedia/commons/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg 
+MDA,Moldova,Lower middle income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Moldova.svg
+MCO,Monaco,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/e/ea/Flag_of_Monaco.svg
+MNG,Mongolia,Lower middle income,Eastern Asia,https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Mongolia.svg
+MNE,Montenegro,Upper middle income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Montenegro.svg
+MAR,Morocco,Lower middle income,Northern Africa,https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg
+MOZ,Mozambique,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Mozambique.svg
+MMR,Myanmar,Lower middle income,South-eastern Asia,https://upload.wikimedia.org/wikipedia/commons/8/8c/Flag_of_Myanmar.svg
+NAM,Namibia,Upper middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Namibia.svg
+NRU,Nauru,High income,Oceania,https://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_Nauru.svg
+NPL,Nepal,Low income,Southern Asia,https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg
+NLD,Netherlands,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg
+NCL,New Caledonia,High income,Oceania,https://upload.wikimedia.org/wikipedia/commons/2/26/Flags_of_New_Caledonia.svg
+NZL,New Zealand,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg
+NIC,Nicaragua,Lower middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Nicaragua.svg
+NER,Niger,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/f/f4/Flag_of_Niger.svg
+NGA,Nigeria,Lower middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Nigeria.svg
+MNP,Northern Mariana Islands,High income,Oceania,https://upload.wikimedia.org/wikipedia/commons/e/e0/Flag_of_the_Northern_Mariana_Islands.svg 
+NOR,Norway,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg
+OMN,Oman,High income,Western Asia,https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Oman.svg
+PAK,Pakistan,Lower middle income,Southern Asia,https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg
+PLW,Palau,Upper middle income,Oceania,https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Palau.svg
+PAN,Panama,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/a/ab/Flag_of_Panama.svg
+PNG,Papua New Guinea,Lower middle income,Oceania,https://upload.wikimedia.org/wikipedia/commons/e/e3/Flag_of_Papua_New_Guinea.svg
+PRY,Paraguay,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Paraguay.svg
+PER,Peru,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Peru.svg
+PHL,Philippines,Lower middle income,South-eastern Asia,https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg
+POL,Poland,High income,Developed regions,https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg
+PRT,Portugal,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg
+PRI,Puerto Rico,High income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/2/28/Flag_of_Puerto_Rico.svg 
+QAT,Qatar,High income,Western Asia,https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg
+ROM,Romania,Upper middle income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg
+RUS,Russian Federation,Upper middle income,Developed regions,https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg 
+RWA,Rwanda,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Rwanda.svg
+STP,Sao Tome and Principe,Lower middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Sao_Tome_and_Principe.svg
+WSM,Samoa,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Samoa.svg
+SMR,San Marino,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_San_Marino.svg
+SAU,Saudi Arabia,High income,Western Asia,https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg
+SEN,Senegal,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg
+SRB,Serbia,Upper middle income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg
+SYC,Seychelles,High income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Seychelles.svg
+SLE,Sierra Leone,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Sierra_Leone.svg
+SGP,Singapore,High income,South-eastern Asia,https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg
+SXM,Sint Maarten (Dutch part),High income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Sint_Maarten.svg
+SVK,Slovak Republic,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Slovakia.svg
+SVN,Slovenia,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg
+SLB,Solomon Islands,Lower middle income,Oceania,https://upload.wikimedia.org/wikipedia/commons/7/74/Flag_of_the_Solomon_Islands.svg
+SOM,Somalia,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_Somalia.svg
+ZAF,South Africa,Upper middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg
+SSD,South Sudan,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg
+ESP,Spain,High income,Developed regions,https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg
+LKA,Sri Lanka,Lower middle income,Southern Asia,https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Sri_Lanka.svg
+KNA,St. Kitts and Nevis,High income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg
+LCA,St. Lucia,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Saint_Lucia.svg
+VCT,St. Vincent and the Grenadines,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg 
+SDN,Sudan,Lower middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Sudan.svg
+SUR,Suriname,Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/6/60/Flag_of_Suriname.svg
+SWZ,Swaziland,Lower middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/1/1e/Flag_of_Swaziland.svg
+SWE,Sweden,High income,Developed regions,https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg
+CHE,Switzerland,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/0/08/Flag_of_Switzerland_%28Pantone%29.svg
+SYR,Syrian Arab Republic,Lower middle income,Western Asia,https://upload.wikimedia.org/wikipedia/commons/5/53/Flag_of_Syria.svg 
+TJK,Tajikistan,Lower middle income,Caucasus and Central Asia,https://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Tajikistan.svg
+TZA,Tanzania,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tanzania.svg
+THA,Thailand,Upper middle income,South-eastern Asia,https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg
+TMP,Timor-Leste,Lower middle income,South-eastern Asia,https://upload.wikimedia.org/wikipedia/commons/2/26/Flag_of_East_Timor.svg 
+TGO,Togo,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/6/68/Flag_of_Togo.svg
+TON,Tonga,Lower middle income,Oceania,https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Tonga.svg
+TTO,Trinidad and Tobago,High income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Trinidad_and_Tobago.svg
+TUN,Tunisia,Lower middle income,Northern Africa,https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg
+TUR,Turkey,Upper middle income,Western Asia,https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg
+TKM,Turkmenistan,Upper middle income,Caucasus and Central Asia,https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Turkmenistan.svg
+TCA,Turks and Caicos Islands,High income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_the_Turks_and_Caicos_Islands.svg 
+TUV,Tuvalu,Upper middle income,Oceania,https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tuvalu.svg
+UGA,Uganda,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Uganda.svg
+UKR,Ukraine,Lower middle income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg
+ARE,United Arab Emirates,High income,Western Asia,https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_United_Arab_Emirates.svg
+GBR,United Kingdom,High income,Developed regions,https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg
+USA,United States,High income,Developed regions,https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg
+URY,Uruguay,High income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg
+UZB,Uzbekistan,Lower middle income,Caucasus and Central Asia,https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg
+VUT,Vanuatu,Lower middle income,Oceania,https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Vanuatu.svg
+VEN,"Venezuela, RB",Upper middle income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/7/7b/Flag_of_Venezuela_%28state%29.svg 
+VNM,Vietnam,Lower middle income,South-eastern Asia,https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg
+VIR,Virgin Islands (U.S.),High income,Latin America and the Caribbean,https://upload.wikimedia.org/wikipedia/commons/f/f8/Flag_of_the_United_States_Virgin_Islands.svg 
+YEM,"Yemen, Rep.",Lower middle income,Western Asia,https://upload.wikimedia.org/wikipedia/commons/d/db/Flag_of_South_Yemen.svg 
+ZMB,Zambia,Lower middle income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Zambia.svg
+ZWE,Zimbabwe,Low income,Sub-Saharan Africa,https://upload.wikimedia.org/wikipedia/commons/6/6a/Flag_of_Zimbabwe.svg
+CPV,Cape Verde,High income,Developed regions,https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Cape_Verde.svg
+TWN,"Taiwan, Prov. of China",Lower middle income,Eastern Asia,https://upload.wikimedia.org/wikipedia/commons/7/72/Flag_of_the_Republic_of_China.svg

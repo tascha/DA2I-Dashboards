@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+*.pyc
+venv
+.vscode
+__pycache__
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.~lock*
+*Zone.Identifier
+DA2i_Database/DA2I_Indicator_Database_Private.csv

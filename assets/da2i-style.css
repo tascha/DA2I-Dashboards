@@ -1,0 +1,478 @@
+body {
+    font-family: Raleway;
+}
+
+.story-container {
+    margin-top: 10px;
+    /*padding-right: 8%;
+    padding-left:8%;*/
+}
+
+.story-title {
+    margin-top: 40px;
+}
+
+.story-description {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 1px;
+}
+
+/*.dashboard-container{
+    padding-right: 8%;
+    padding-left:8%;
+}*/
+
+.dashboard-description {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.da2i-block {
+    padding-bottom: 12px;
+}
+
+.da2i-description {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.footer {
+    min-height: 50px;
+}
+
+._dash-undo-redo {
+    display: none;
+}
+
+.graph-title {
+    color: #38C0E1;
+}
+
+/* ----- chart style ----- */
+
+.indicator-chart {
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* ----- table style ----- */
+
+.indicator-table {
+    font-family: Raleway;
+    width: 100%;
+}
+
+.indicator-table table {
+    border-top: 0.5px solid #D3D3D3;
+    border-bottom: 0.5px solid #D3D3D3;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.indicator-table th {
+    font-size: 18px;
+    color: grey;
+    text-align: center;
+}
+
+.indicator-table td {
+    color: #38C0E1;
+    font-size: 20px;
+    text-align: center;
+}
+
+.table-title>span {
+    color: grey;
+    font-size: 16px;
+}
+
+.table-title>img {
+    width: 25px;
+    padding-left: 10px;
+}
+
+.table-title {
+    padding-bottom: 5px;
+}
+
+/* ----- Freedom tables ----*/
+
+/* ----- table style ----- */
+
+.pc-indicator-table {
+    font-family: Raleway;
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.pc-indicator-table table {
+    border-top: 0.5px solid #D3D3D3;
+    border-bottom: 0.5px solid #D3D3D3;
+    width: 100%;
+}
+
+.pc-indicator-table th {
+    font-size: 18px;
+    color: grey;
+    text-align: center;
+}
+
+.pc-indicator-table td {
+    color: #38C0E1;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pc-table-title>span {
+    color: grey;
+    font-size: 16px;
+}
+
+.pc-table-title>img {
+    width: 25px;
+    padding-left: 10px;
+}
+
+.pc-table-title {
+    padding-bottom: 5px;
+}
+
+.gender-title-section {
+    margin-top: -16px;
+}
+
+/* ----- navbar style ----- */
+
+.main-container {
+    margin-right: 0;
+}
+
+.dashboard-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2em;
+}
+
+.navbar {
+    padding: 10px;
+    /* background-color: #EDEDEE; */
+    background-color: #9ACED6;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    z-index: 1000;
+ 
+}
+
+#country-dropdown-div {
+    min-width: 250px;
+    flex-grow: 1;
+    margin-top: -1em;
+}
+
+#country-dropwdown-label {
+    width: 250px;
+}
+
+#country-dropdown, #country-dropdown-label {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#da2i-logo {
+    margin-left: 10px;
+}
+
+.navbar-buttons {
+    margin: 10px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navbar-button {
+    background-color: white;
+    padding: 0px 10px 0 10px;
+    display: inline-block;
+}
+
+/*give nav buttons that are not a last child a right border
+to create dividing lines between the buttons*/
+
+.navbar-button:not(:last-child) {
+    border-right: 2px solid grey;
+}
+
+.navbar-button>a {
+    text-align: center;
+    font-family: Raleway;
+    /*margin-left: 3%;*/
+    color: black;
+    font-size: 18px;
+}
+
+.navbar-button>img {
+    margin: 5px;
+    width: 30px;
+}
+
+.navbar-button>a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    border-bottom: 7px solid pink;
+}
+
+.navbar-button>active:focus {
+    font-size: 30px;
+    border-bottom: 7px solid pink;
+}
+
+.jumbotron strong {
+    color: #E06666;
+}
+
+/* ----- country profile style ----- */
+
+#country-profile>#country-icon {
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    width: 90%;
+    height: 8%;
+}
+
+#country-profile>H4 {
+    text-align: left;
+    color: white;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 11%;
+}
+
+/* country profile section titles */
+
+.country-profile-section span.title {
+    text-align: left;
+    color: white;
+    font-family: Raleway;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.country-profile-section img {
+    max-width: 20px;
+}
+
+.country-profile-section span.value {
+    text-align: left;
+    color: #38C0E1;
+    font-family: Raleway;
+    font-size: 18px;
+}
+
+.country-profile-section {
+    margin-top: 5px;
+}
+
+/* country profile section content */
+
+.country-profile-section div {
+    text-align: left;
+    color: #38C0E1;
+    font-family: Raleway;
+    margin-left: 11%;
+    font-size: 20px;
+}
+
+/* country profile section info icon(s) */
+
+.country-profile-section img {
+    width: 10%;
+    padding-left: 1px;
+}
+
+/* ----- quick look style ----- */
+
+.quick-look {
+    padding-bottom: 1em;
+}
+
+.quick-look-title {
+    margin-top: 10%;
+}
+
+.quick-look-title>span {
+    color: white;
+    font-family: Raleway;
+    margin-left: 11%;
+    font-size: 20px;
+    margin-bottom: 1%;
+    font-weight: bold;
+    /*float: left;*/
+}
+
+.quick-look-title>img {
+    width: 12%;
+    /*float: left;*/
+    padding-left: 10px;
+}
+
+.quick-look-section {
+    margin-left: 11%;
+    text-align: left;
+    font-family: Raleway;
+    width: 84%;
+    background-color: #4E4742;
+    padding-top: 4px;
+    padding-right: 5px;
+    height: 2.5%;
+    margin-top: 5%;
+    padding-left: 8px;
+    display: inline-block;
+}
+
+.quick-look-section table, tr, th, td {
+    border: none;
+}
+
+.quick-look-section table {
+    width: 100%;
+}
+
+/* ----- sidebar style ----- */
+.sidebar {
+    background-color: #38302C;
+
+}
+#sidebar {
+    /*position: fixed;*/
+    /*box-shadow: 10px 100px 5px grey;*/
+    /*width: 18%;*/
+    /* height: 100vh; */
+    /*display: inline-block;*/
+    padding: 10px;
+    padding-top: 2em;
+    margin-right: -15px;
+}
+
+#sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    .dashboard-container {
+        padding-left: 15px;
+    }
+    #navbar-buttons {
+        margin: 1em auto;
+        padding-left: 75px;
+    }
+ 
+}
+
+/* @media screen and (min-width: 720px) {
+    #sidebar {
+        margin-right: 0;
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        overflow-y: scroll;
+    }
+    .navbar {
+        position: sticky;
+        top: 0;
+    }
+} */
+
+/* .col.sidebar {
+    flex-grow: 0;
+    flex-basis: 250px;
+} */
+
+.mobile-broadband-cost-chart {
+    width: 100%
+}
+.row {
+    padding-bottom: 1em;
+}
+#countrynameWrap, #pathnameWrap {
+    display: none;
+}
+
+.plot-container {
+    /* margin-top:50px; */
+    margin-bottom: 50px!important;
+}
+
+.moveup {
+    margin-top: -50px;  
+}
+#percent-using-internet-vs-freedom-on-net-chart {
+    padding-bottom: 20px;
+}
+#inequality-over-years-table {
+    margin-bottom: 65px;
+}
+#aggregate-gender-index-sparklines-bar-chart{
+    margin-top: -50px;
+}
+#technology-use-table, #ict-skills-table {
+    margin-top: -35px;
+    z-index: 100;
+}
+#ict-skills-table {
+    margin-top: -68px;
+    z-index: 100;
+}
+.indicator-table {
+    padding-top: 15px;
+}
+#aggregate-freedom-sparklines-bar-chart {
+    margin-top: -55px;
+}
+
+#cookies-eu-banner {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /* background: #9ACED6; */
+    background-color: rgba(56, 48, 44, .8);
+    color: #e9ecef;
+    padding: .5em;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#cookies-eu-banner button {
+    color: #e9ecef;
+}
+#cookies-eu-banner button:hover {
+    color: white;
+}
+#cookies-eu-accept {
+    background: #dc661e;
+    /* padding-left: 1em; */
+    margin-left: 1em;
+}
+
+#banner-text {
+    padding-right: 1em;
+    
+}
+
+#ccInfo {
+    margin-left: 11%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    /* text-align: center; */
+    color: white;
+}
+#ccInfo img {
+    margin-bottom: 1em;
+}
