@@ -42,47 +42,50 @@ def generatePathname(pathname):
 
 
 def generateNavButtons(country):
-    return [
+    if len(country) < 3:
+        return ""
+    else:
+        return [
 
-        # ----- connectivity navbar button -----
-        html.Div(
-            className='navbar-button',
-            children=[
-                html.Img(
-                    src='data:image/png;base64,{}'.format(
-                        encoded_image.decode())
-                ),
-                html.A(
-                    children='Connectivity',
-                    href='/connectivity'+countryParam(country)
-                )
-            ]
-        ),
+            # ----- connectivity navbar button -----
+            html.Div(
+                className='navbar-button',
+                children=[
+                    html.Img(
+                        src='data:image/png;base64,{}'.format(
+                            encoded_image.decode())
+                    ),
+                    html.A(
+                        children='Connectivity',
+                        href='/connectivity'+countryParam(country)
+                    )
+                ]
+            ),
 
-        # ----- freedom navbar button -----
-        html.Div(
-            className='navbar-button',
-            children=[
-                html.Img(
-                    src='data:image/png;base64,{}'.format(
-                        encoded_image4.decode())
-                ),
-                html.A('Freedom', href='/freedom'+countryParam(country))
-            ]
-        ),
+            # ----- freedom navbar button -----
+            html.Div(
+                className='navbar-button',
+                children=[
+                    html.Img(
+                        src='data:image/png;base64,{}'.format(
+                            encoded_image4.decode())
+                    ),
+                    html.A('Freedom', href='/freedom'+countryParam(country))
+                ]
+            ),
 
-        # ----- gender navbar button -----
-        html.Div(
-            className='navbar-button',
-            children=[
-                html.Img(
-                    src='data:image/png;base64,{}'.format(
-                        encoded_image3.decode())
-                ),
-                html.A('Gender', href='/gender'+countryParam(country))
-            ]
-        )
-    ]
+            # ----- gender navbar button -----
+            html.Div(
+                className='navbar-button',
+                children=[
+                    html.Img(
+                        src='data:image/png;base64,{}'.format(
+                            encoded_image3.decode())
+                    ),
+                    html.A('Gender', href='/gender'+countryParam(country))
+                ]
+            )
+        ]
 
 
 layout = html.Div(

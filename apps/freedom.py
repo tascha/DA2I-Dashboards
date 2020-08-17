@@ -54,6 +54,19 @@ layout = html.Div(
                                                       children="Creative Commons Attribution-NonCommercial 4.0 International License"
                                                   )
                                               ]
+                                          ),
+                                          html.P(
+                                              children=[
+                                                  html.Br(),
+                                                  html.Span(
+                                                      children="Dashboard development and support by  "
+                                                  ),
+                                                  html.A(
+                                                      rel="license", 
+                                                      href="https://danielrekshan.com",
+                                                      children="Daniel Rekshan"
+                                                  )
+                                              ]
                                           )
                                       )
                                   )
@@ -82,8 +95,10 @@ layout = html.Div(
                                                            html.A(children="DA2i website", target="_blank", href="https://da2i.ifla.org/"),
                                                            html.Span(' for more information on the project and its rights-based approach to meaningful access to information. '),
                                                            html.Span('Visit the open source '),
-                                                           html.A(children='Github repo', target='_blank', href="https://github.com/tascha/DA2I-Dashboard"),
-                                                           html.Span(' for acknowledgements and technical resources.'),
+                                                           html.A(children='Github repo', target='_blank', href="https://github.com/tascha/DA2I-Dashboards"),
+                                                           html.Span(' for acknowledgements and technical resources and the '),
+                                                           html.A(children='dashboard FAQs', target='_blank', href="https://tascha.uw.edu/2020/07/tascha-launches-development-and-access-to-information-dashboards/"),
+                                                           html.Span('.'),
                                                            html.Br(),
                                                            html.Br(),
                                                            html.Span('The Dashboards, built by '),
@@ -316,12 +331,23 @@ def update_quick_look_section_1(selected_country):
     year = str(df_filtered['Year'].tail(1).tolist()[
                0]) if len(df_filtered) != 0 else 'NA'
 
-    if score != "NA":
-        if score > 60:
+
+    df_filtered = df[df["Country"] == selected_country]
+    # filtered by selected country and indicator
+    df_filtered = df_filtered[df_filtered["Name"] == 'FitW.total.status']
+    # drop rows with missing indicator values
+    df_filtered = df_filtered.dropna(axis="index", subset=["value"])
+
+    df_filtered.sort_values('Year', inplace=True)
+    status = df_filtered['value'].tail(1).tolist(
+    )[0] if len(df_filtered) != 0 else 'NO DATA'
+
+    if status != "NA":
+        if status == 1:
             rating = "Free"
             color = '#10C80A'
             score = str(score)+'/100'
-        elif score > 30:
+        elif status == 0.5:
             rating = "Partly Free"
             color = '#FFC300'
             score = str(score)+'/100'
@@ -439,12 +465,22 @@ def update_quick_look_section_4(selected_country):
     year = str(df_filtered['Year'].tail(1).tolist()[
                0]) if len(df_filtered) != 0 else 'NA'
 
-    if score != "NA":
-        if score > 70:
+    df_filtered = df[df["Country"] == selected_country]
+    # filtered by selected country and indicator
+    df_filtered = df_filtered[df_filtered["Name"] == 'FitW.total.status']
+    # drop rows with missing indicator values
+    df_filtered = df_filtered.dropna(axis="index", subset=["value"])
+
+    df_filtered.sort_values('Year', inplace=True)
+    status = df_filtered['value'].tail(1).tolist(
+    )[0] if len(df_filtered) != 0 else 'NO DATA'
+
+    if status != "NA":
+        if status == 1:
             rating = "Free"
             color = '#10C80A'
             score = str(score)+'/100'
-        elif score > 40:
+        elif status == 0.5:
             rating = "Partly Free"
             color = '#FFC300'
             score = str(score)+'/100'
@@ -520,14 +556,27 @@ def calculate_freedom_rating(selected_country):
     df_filtered.sort_values('Year', inplace=True)
     score = df_filtered['value'].tail(1).tolist(
     )[0] if len(df_filtered) != 0 else 'NO DATA'
+    
+    
     year = str(int(df_filtered['Year'].tail(1).tolist()[0])) if len(
         df_filtered) != 0 else 'NA'
 
-    if score != "NO DATA":
-        if score > 70:
+
+    df_filtered = df[df["Country"] == selected_country]
+    # filtered by selected country and indicator
+    df_filtered = df_filtered[df_filtered["Name"] == 'FitW.total.status']
+    # drop rows with missing indicator values
+    df_filtered = df_filtered.dropna(axis="index", subset=["value"])
+
+    df_filtered.sort_values('Year', inplace=True)
+    status = df_filtered['value'].tail(1).tolist(
+    )[0] if len(df_filtered) != 0 else 'NO DATA'
+
+    if status != "NO DATA":
+        if status == 1:
             rating = "Free"
             color = '#10C80A'
-        elif score > 30:
+        elif status == 0.5:
             rating = "Partly Free"
             color = '#FFC300'
         else:
@@ -536,6 +585,20 @@ def calculate_freedom_rating(selected_country):
     else:
         rating = "NO DATA"
         color = "#000000"
+
+    # if score != "NO DATA":
+    #     if score > 70:
+    #         rating = "Free"
+    #         color = '#10C80A'
+    #     elif score > 29:
+    #         rating = "Partly Free"
+    #         color = '#FFC300'
+    #     else:
+    #         rating = "Not Free"
+    #         color = '#9370DB'
+    # else:
+    #     rating = "NO DATA"
+    #     color = "#000000"
 
     return html.Table(
         # Header
@@ -680,6 +743,7 @@ def calculate_freedom_on_the_net_rating(selected_country):
     else:
         rating = "NO DATA"
         color = "#000000"
+
 
     return html.Table(
         # Header

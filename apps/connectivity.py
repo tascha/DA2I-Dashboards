@@ -70,6 +70,19 @@ layout = html.Div(
                                                       children="Creative Commons Attribution-NonCommercial 4.0 International License"
                                                   )
                                               ]
+                                          ),
+                                          html.P(
+                                              children=[
+                                                  html.Br(),
+                                                  html.Span(
+                                                      children="Dashboard development and support by  "
+                                                  ),
+                                                  html.A(
+                                                      rel="license", 
+                                                      href="https://danielrekshan.com",
+                                                      children="Daniel Rekshan"
+                                                  )
+                                              ]
                                           )
                                       )
                                   )
@@ -97,11 +110,12 @@ layout = html.Div(
                                                            html.A(children="DA2i website", target="_blank", href="https://da2i.ifla.org/"),
                                                            html.Span(' for more information on the project and its rights-based approach to meaningful access to information. '),
                                                            html.Span('Visit the open source '),
-                                                           html.A(children='Github repo', target='_blank', href="https://github.com/tascha/DA2I-Dashboard"),
-                                                           html.Span(' for acknowledgements and technical resources.'),
+                                                           html.A(children='Github repo', target='_blank', href="https://github.com/tascha/DA2I-Dashboards"),
+                                                           html.Span(' for acknowledgements and technical resources and the '),
+                                                           html.A(children='dashboard FAQs', target='_blank', href="https://tascha.uw.edu/2020/07/tascha-launches-development-and-access-to-information-dashboards/"),
+                                                           html.Span('.'),
                                                            html.Br(),
                                                            html.Br(),
-                                                
                                                            html.Span('The Dashboards, built by '),
                                                            html.A(target='_blank', href='https://tascha.uw.edu/', children="University of Washington's Technology & Social Change Group"),
                                                            html.Span(", are part of a larger initiative in collaboration with the "),
@@ -540,7 +554,7 @@ def update_update_quick_look_section_4(selected_country):
 def update_internet_population_chart(selected_country):
     return utils.generate_time_series_line_chart(selected_country=selected_country,
                                                  indicator="ind.internet",
-                                                 title="What percentage of population is using Internet?",
+                                                 title="What percentage of the population is using Internet?",
                                                  ylabel="Internet Access (%)")
 
 

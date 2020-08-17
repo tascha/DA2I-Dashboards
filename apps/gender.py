@@ -53,6 +53,19 @@ layout = html.Div(
                                                       children="Creative Commons Attribution-NonCommercial 4.0 International License"
                                                   )
                                               ]
+                                          ),
+                                          html.P(
+                                              children=[
+                                                  html.Br(),
+                                                  html.Span(
+                                                      children="Dashboard development and support by  "
+                                                  ),
+                                                  html.A(
+                                                      rel="license", 
+                                                      href="https://danielrekshan.com",
+                                                      children="Daniel Rekshan"
+                                                  )
+                                              ]
                                           )
                                       )
                                   )
@@ -79,8 +92,10 @@ layout = html.Div(
                                                            html.A(children="DA2i website", target="_blank", href="https://da2i.ifla.org/"),
                                                            html.Span(' for more information on the project and its rights-based approach to meaningful access to information. '),
                                                            html.Span('Visit the open source '),
-                                                           html.A(children='Github repo', target='_blank', href="https://github.com/tascha/DA2I-Dashboard"),
-                                                           html.Span(' for acknowledgements and technical resources.'),
+                                                           html.A(children='Github repo', target='_blank', href="https://github.com/tascha/DA2I-Dashboards"),
+                                                           html.Span(' for acknowledgements and technical resources and the '),
+                                                           html.A(children='dashboard FAQs', target='_blank', href="https://tascha.uw.edu/2020/07/tascha-launches-development-and-access-to-information-dashboards/"),
+                                                           html.Span('.'),
                                                            html.Br(),
                                                            html.Br(),
                                                              html.Span('The Dashboards, built by '),
@@ -433,8 +448,8 @@ def update_quick_look_section_2(selected_country):
     df_filtered = df_filtered.dropna(axis="index", subset=["value"])
 
     df_filtered.sort_values('Year', inplace=True)
-    women = df_filtered['value'].tail(
-        1).tolist()[0] if len(df_filtered) != 0 else 'NA'
+    women = str(df_filtered['value'].tail(
+        1).tolist()[0]) + "%" if len(df_filtered) != 0 else 'NA'
 
     # filtered data
     df_filtered = df[df["Country"] == selected_country]
@@ -444,8 +459,8 @@ def update_quick_look_section_2(selected_country):
     df_filtered = df_filtered.dropna(axis="index", subset=["value"])
 
     df_filtered.sort_values('Year', inplace=True)
-    men = df_filtered['value'].tail(
-        1).tolist()[0] if len(df_filtered) != 0 else 'NA'
+    men = str(df_filtered['value'].tail(
+        1).tolist()[0]) + '%' if len(df_filtered) != 0 else 'NA'
 
 
     return html.Table(
@@ -489,8 +504,8 @@ def update_update_quick_look_section_3(selected_country):
     df_filtered = df_filtered.dropna(axis="index", subset=["value"])
 
     df_filtered.sort_values('Year', inplace=True)
-    women = df_filtered['value'].tail(
-        1).tolist()[0] if len(df_filtered) != 0 else 'NA'
+    women = str(df_filtered['value'].tail(
+        1).tolist()[0]) + '%' if len(df_filtered) != 0 else 'NA'
 
     # filtered data
     df_filtered = df[df["Country"] == selected_country]
@@ -500,8 +515,8 @@ def update_update_quick_look_section_3(selected_country):
     df_filtered = df_filtered.dropna(axis="index", subset=["value"])
 
     df_filtered.sort_values('Year', inplace=True)
-    men = df_filtered['value'].tail(
-        1).tolist()[0] if len(df_filtered) != 0 else 'NA'
+    men = str(df_filtered['value'].tail(
+        1).tolist()[0]) + "%" if len(df_filtered) != 0 else 'NA'
 
 
     return html.Table(
@@ -542,8 +557,8 @@ def update_quick_look_section_4(selected_country):
     df_filtered = df_filtered.dropna(axis="index", subset=["value"])
 
     df_filtered.sort_values('Year', inplace=True)
-    women_in_stem = round(df_filtered['value'].tail(1), 1).tolist()[
-        0] if len(df_filtered) != 0 else 'NA'
+    women_in_stem = str(round(df_filtered['value'].tail(1), 1).tolist()[
+        0]) + '%' if len(df_filtered) != 0 else 'NA'
 
     return html.Table(
         # Header

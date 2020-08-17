@@ -127,9 +127,21 @@ def generate_sparklines_slider_bar_chart(selected_country, indicator, title, cat
         yrs_range = [years,years+0.5]
 
     if values != 'NA' and indicator == "FitW.total.aggregate.score":
-        if values >= 70:
+        # udate here
+
+        df_filtered = df[df["Country"] == selected_country]
+        # filtered by selected country and indicator
+        df_filtered = df_filtered[df_filtered["Name"] == 'FitW.total.status']
+        # drop rows with missing indicator values
+        df_filtered = df_filtered.dropna(axis="index", subset=["value"])
+
+        df_filtered.sort_values('Year', inplace=True)
+        status = df_filtered['value'].tail(1).tolist(
+        )[0] if len(df_filtered) != 0 else 'NO DATA'
+
+        if status == 1:
             colors = '#10C80A'
-        elif values >= 30:
+        elif status == 0.5:
             colors = '#FFC300'
         else:
             colors = '#9370DB'
@@ -360,7 +372,7 @@ def generate_sparklines_bar_chart(selected_country, indicator, title, categories
         xaxis=dict(
             #tickmode="auto",
             tickfont=dict(family='Raleway',size=14),
-            range=[2009.5,2018.5] if indicator == 'FitW.total.aggregate.score' else [2010.5,2018.5],
+            range=[2009.5,2020.5] if indicator == 'FitW.total.aggregate.score' else [2010.5,2020.5],
             side="top"
         ),
         yaxis=dict(
@@ -958,16 +970,23 @@ def generate_most_recent_value_table(selected_country, indicator, indicator_name
     val1 = ind_internet['value'].tail(1).tolist()[0] if len(ind_internet) != 0 else 'NA'
     val2 = ind_internet['value'].tail(2).head(1).tolist()[0] if len(ind_internet) != 0 else 'NA'
     if indicator == 'GII':
-        pctChange = round(((val1 - val2) / val2) * 100, 3) if len(ind_internet) != 0 else 'NA'
+        pctChange = round(val1 - val2, 3) if len(ind_internet) != 0 else 'NA'
+        # pctChange = round(((val1 - val2) / val2) * 100, 3) if len(ind_internet) != 0 else 'NA'
     else:
         pctChange = int(round(((val1 - val2) / val2) * 100, )) if len(ind_internet) != 0 else 'NA'
 
     if pctChange == 'NA':
         pctChange = pctChange
     elif pctChange > 0:
-        pctChange = '▲ ' + str(abs(pctChange)) + '%'
+        if indicator == 'GII':
+            pctChange = '▲ ' + str(abs(pctChange))
+        else:
+            pctChange = '▲ ' + str(abs(pctChange)) + '%'
     elif pctChange < 0:
-        pctChange = '▼ ' + str(abs(pctChange)) + '%'
+        if indicator == 'GII':
+            pctChange = '▼ ' + str(abs(pctChange))
+        else:
+            pctChange = '▼ ' + str(abs(pctChange)) + '%'
     else:
         pctChange = str(pctChange) + '%'
 
@@ -1259,6 +1278,10 @@ def generate_freedom_in_the_world_chart(selected_country, indicators, max_values
 
     # create traces for each indicator
     traces = []
+    if len(indicators) == 4:
+        height = 625
+    else:
+        height = 550
     for idx,indicator in enumerate(indicators):
         df_indicator = df_filtered[df_filtered["Name"] == indicator]
         values = list(df_indicator["value"])
@@ -1278,7 +1301,7 @@ def generate_freedom_in_the_world_chart(selected_country, indicators, max_values
     layout = go.Layout(
         barmode="stack",
         autosize=False,
-        height=550,
+        height=height,
         width=500,
         xaxis=dict(
             #title="Score"
@@ -1380,7 +1403,7 @@ def generate_political_rights_rating_chart(selected_country):
                   "FitW.PRR.Functioning.of.Government": 12,
                   "FitW.PRR.Political.Pluralism": 16}
 
-    years = [2010,2011,2012,2013,2014,2015,2016,2017,2018]
+    years = [2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020]
 
     title = 'Are political rights protected in the country?'
 
@@ -1416,7 +1439,7 @@ def generate_civil_liberties_rating_chart(selected_country):
                         "FitW.CLR.Rule.of.Law": "#551a8b",
                         "FitW.CLR.Personal.Autonomy.and.Individual.Rights": "#330f53"}
 
-    years = [2010,2011,2012,2013,2014,2015,2016,2017,2018]
+    years = [2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020]
 
     title = 'Are civil liberties guaranteed in the country?'
 
@@ -2790,8 +2813,7 @@ def generate_women_in_parliament_line_chart(selected_country,title_text):
     rgn = df.loc[df.Country == selected_country, 'Region'].tolist()[0]
     regional = weightedAverage(rgn, 'SG.GEN.PARL.ZS')
 
-    src_text = 'Source: ' + df.loc[df['Name'] == 'SG.GEN.PARL.ZS', 'Source'].tail(1).tolist()[0] + ' (' + str(int(
-        df.loc[df['Name'] == 'SG.GEN.PARL.ZS', 'db_year'].tail(1).tolist()[0])) + ')<br>Technology & Social Change Group, University of Washington'
+    src_text = 'Source: ' + df.loc[df['Name'] == 'SG.GEN.PARL.ZS', 'Source'].tail(1).tolist()[0] + ' (2019)<br>Technology & Social Change Group, University of Washington'
 
     return {
         'data': [

@@ -47,29 +47,33 @@ function blankLinks() {
 }
 
 function updateUrl() {
-    var country = document.getElementById('countrynameWrap').textContent;
-    var pathname = document.getElementById('pathnameWrap').textContent;
-    if (country.length < 5) { return }
-    if (!window.location.pathname.toLowerCase().includes(country.replace('+', ' ').toLowerCase())) {
-        console.log("updating url")
-        var a = pathname.split("/")
-        if (a[1].length < 5) {
-            a[1] = 'connectivity'
+    if (document.getElementById('countrynameWrap') && document.getElementById('pathnameWrap')) {
+        var country = document.getElementById('countrynameWrap').textContent;
+        var pathname = document.getElementById('pathnameWrap').textContent;
+        if (country.length < 5) { return }
+        if (!window.location.pathname.toLowerCase().includes(country.replace('+', ' ').toLowerCase())) {
+            console.log("updating url")
+            var a = pathname.split("/")
+            if (a[1].length < 5) {
+                a[1] = 'connectivity'
+            }
+            a[2] = country.replace(" ", "+")
+            var newpath = a.join("/")
+            window.history.pushState('newpath', 'Title', newpath);
+    
         }
-        a[2] = country.replace(" ", "+")
-        var newpath = a.join("/")
-        window.history.pushState('newpath', 'Title', newpath);
-
     }
+    
 }
 
 document.addEventListener("DOMContentLoaded", function () {
     var i = 0;
     handleResize();
+    updateUrl();
     setInterval(function () {
         handleResize();
         updateUrl()
-    }, 3000)
+    }, 1000)
 
 
     console.log("COOKIE BANNER LOADED")

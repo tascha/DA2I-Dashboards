@@ -11,3 +11,4 @@ __pycache__
 .~lock*
 *Zone.Identifier
 DA2i_Database/DA2I_Indicator_Database_Private.csv
+*_Private
